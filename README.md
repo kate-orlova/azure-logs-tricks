@@ -1,7 +1,7 @@
 # Azure Logs Tricks
 
 Azure Logs tricks are a set of useful scripts written in Kusto Query Language (KQL) to query the Azure log databases. Scripts are grouped into folders based on the specific functionality and table name in Azure Logs:
-* **requests**
+* **requests** - calculate the total number of different requests count and with average duration for the last 24 hours
 
 # Contribution
 Hope you found these KQL scripts helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request.
