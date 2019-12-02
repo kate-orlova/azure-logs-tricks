@@ -1,0 +1,3 @@
+requests
+| summarize RequestsCount=sum(itemCount), AverageDuration=avg(duration), percentiles(duration, 50, 95, 99) by operation_Name
+| order by RequestsCount desc
