@@ -1,3 +1,5 @@
+[![GitHub license](https://img.shields.io/github/license/kate-orlova/azure-logs-tricks.svg)](https://github.com/kate-orlova/azure-logs-tricks/blob/master/LICENSE)
+
 # Azure Logs Tricks
 
 Azure Logs tricks are a set of useful scripts written in Kusto Query Language (KQL) to query the Azure log databases. Scripts are grouped into folders based on the specific functionality and table name in Azure Logs:
