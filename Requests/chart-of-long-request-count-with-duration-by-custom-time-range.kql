@@ -1,0 +1,7 @@
+let start=datetime("2019-12-03T00:00:00.000Z");
+let end=datetime("2019-12-04T00:00:00.000Z");
+requests
+| where timestamp > start and timestamp < end
+| where duration > 30000
+| summarize RequestsCount=sum(itemCount), AverageDuration=avg(duration), percentiles(duration, 50, 95, 99) by operation_Name
+| render piechart
