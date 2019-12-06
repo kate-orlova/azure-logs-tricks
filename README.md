@@ -7,8 +7,10 @@ Azure Logs tricks are a set of useful scripts written in Kusto Query Language (K
 * **requests**
    * calculate the total number of different / long or specific requests count and with average duration within a custom time range or for the last 24 hours by default and present results in table / chart view;
    * get the top 10 failed requests;
-   * get the amount of requests from the top 10 countries; 
-* **pageViews** - get top 10 slowest pages within a custom time range in table / chart view;
+   * get the amount of requests from the top 10 countries;
+   * get the request count trend within a custom time range;
+* **pageViews**
+   * get top 10 slowest pages within a custom time range in table / chart view;
 
 # Contribution
 Hope you found these KQL scripts helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request.
