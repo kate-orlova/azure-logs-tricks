@@ -16,6 +16,8 @@ Azure Logs tricks are a set of useful scripts written in Kusto Query Language (K
    * get the page views trend within a custom time range;
 * **exceptions**
     * get the exceptions causing failures within a custom time range;
+* **dependencies**
+    * get the top 10 failing dependencies within a custom time range;
 
 # Contribution
 Hope you found these KQL scripts helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request.
