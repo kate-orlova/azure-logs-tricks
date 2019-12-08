@@ -1,0 +1,6 @@
+let start=datetime("2019-12-07T00:00:00.000Z");
+let end=datetime("2019-12-08T00:00:00.000Z");
+requests
+| where timestamp > start and timestamp < end and success == false
+| summarize failedCount=sum(itemCount), impactedUsers=dcount(user_Id) by operation_Name
+| order by failedCount desc
