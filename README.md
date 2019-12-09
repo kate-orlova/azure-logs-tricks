@@ -19,7 +19,7 @@ Azure Logs tricks are a set of useful scripts written in Kusto Query Language (K
 * **dependencies**
     * get the top 10 failing dependencies within a custom time range;
 * **performanceCounters**
-    * get the max number of requests a second within the last 24 hours to apps;
+    * get the max number of requests a second within the last 24 hours to apps / a custom time range;
 
 # Contribution
 Hope you found these KQL scripts helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request.
