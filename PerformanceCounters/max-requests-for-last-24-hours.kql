@@ -1,0 +1,3 @@
+performanceCounters
+| where counter  == "Requests/Sec"
+| summarize MaxReguests = max(value) by appName
