@@ -1,0 +1,5 @@
+let start=datetime("2019-12-09T00:00:00.000Z");
+let end=datetime("2019-12-10T00:00:00.000Z");
+performanceCounters
+| where timestamp > start and timestamp < end and counter  == "Requests/Sec"
+| summarize MaxReguests = max(value) by appName
