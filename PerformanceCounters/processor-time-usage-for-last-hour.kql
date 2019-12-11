@@ -1,0 +1,3 @@
+performanceCounters
+| where counter  == "% Processor Time" and timestamp > ago(1h)
+| summarize RequestCount=count() by bin(timestamp, 15m)
