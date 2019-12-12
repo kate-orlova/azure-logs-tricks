@@ -23,6 +23,7 @@ Azure Logs tricks are a set of useful scripts written in Kusto Query Language (K
     * get the number of requests in an application queue hourly for the last 24 hours / for the last hour with 15 minute breakdown;
     * get the processor time usage hourly for the last 24 hours / for the last hour with 15 minute breakdown;
     * get the average processor time usage every 15 minutes within the last hour;
+    * get the number of exceptions for the last hour with 15 minute breakdown;
 
 # Contribution
 Hope you found these KQL scripts helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request.
