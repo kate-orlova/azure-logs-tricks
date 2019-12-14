@@ -1,0 +1,5 @@
+performanceCounters
+| where ((category == "ASP.NET Applications" and counter == "Request Execution Time") or name == "requestExecutionTime")
+| extend performanceCounter_value = iif(itemType == "performanceCounter", value, todouble(''))
+| summarize sum(performanceCounter_value) / count() by bin(timestamp, 1h)
+| render timechart
