@@ -1,0 +1,7 @@
+let start=datetime("2019-12-14T00:00:00.000Z");
+let end=datetime("2019-12-14T02:00:00.000Z");
+performanceCounters
+| where timestamp > start and timestamp < end and ((category == "ASP.NET Applications" and counter == "Request Execution Time") or name == "requestExecutionTime")
+| extend performanceCounter_value = iif(itemType == "performanceCounter", value, todouble(''))
+| summarize sum(performanceCounter_value) / count() by bin(timestamp, 1m)
+| render timechart
