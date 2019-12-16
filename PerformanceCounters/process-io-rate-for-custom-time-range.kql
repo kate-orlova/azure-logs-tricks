@@ -1,0 +1,8 @@
+let start=datetime("2019-12-16T07:00:00.000Z");
+let end=datetime("2019-12-16T10:00:00.000Z");
+performanceCounters
+| where timestamp > start and timestamp < end and ((category == "Process" and counter == "IO Data Bytes/sec") or name == "processIOBytesPerSecond")
+| extend performanceCounter_value = iif(itemType == "performanceCounter", value
+, todouble(''))
+| summarize sum(performanceCounter_value) / count() by bin(timestamp, 1m)
+| render timechart
