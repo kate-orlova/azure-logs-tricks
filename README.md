@@ -11,6 +11,8 @@ Azure Logs tricks are a set of useful scripts written in Kusto Query Language (K
    * get the request count trend within a custom time range;
    * get the response time trend within a custom time range;
    * get the failed requests and calculate a number of impacted users within a custom time range;
+* **sessions**
+   * get the number of the distinct sessions hourly;
 * **pageViews**
    * get top 10 slowest pages within a custom time range in table / chart view;
    * get the page views trend within a custom time range;
