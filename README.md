@@ -27,6 +27,7 @@ Azure Logs tricks are a set of useful scripts written in Kusto Query Language (K
     * produce the request execution time chart for the last 24 hours / a custom time range with a minute step;
     * get the process IO rate for a custom time range in chart view;
     * get the process private bytes for a custom time range in chart view;
+    * get the process CPU consumption for a custom time range in chart view;
 
 # Contribution
 Hope you found these KQL scripts helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request.
