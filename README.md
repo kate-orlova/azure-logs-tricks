@@ -30,6 +30,8 @@ Azure Logs tricks are a set of useful scripts written in Kusto Query Language (K
     * get the process IO rate for a custom time range in chart view;
     * get the process private bytes for a custom time range in chart view;
     * get the process CPU consumption for a custom time range in chart view;
+ * **traces**
+    * get the count of trace statements logged with the _TrackTrace()_ Application Insights API call hourly;
 
 # Contribution
 Hope you found these KQL scripts helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request.
