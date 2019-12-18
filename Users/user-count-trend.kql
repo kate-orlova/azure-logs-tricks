@@ -1,0 +1,4 @@
+union traces, requests, pageViews, dependencies, customEvents, availabilityResults, exceptions, customMetrics, browserTimings
+| where notempty(user_Id)
+| summarize dcount(user_Id) by bin(timestamp, 1h)
+| render barchart
