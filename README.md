@@ -1,5 +1,6 @@
 [![GitHub license](https://img.shields.io/github/license/kate-orlova/azure-logs-tricks.svg)](https://github.com/kate-orlova/azure-logs-tricks/blob/master/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/kate-orlova/azure-logs-tricks.svg?style=flat)
+![GitHub contributors](https://img.shields.io/github/contributors/kate-orlova/azure-logs-tricks)
 
 # Azure Logs Tricks
 
