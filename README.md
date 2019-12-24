@@ -40,4 +40,4 @@ Azure Logs tricks are a set of useful scripts written in Kusto Query Language (K
 Hope you found these KQL scripts helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request.
 
 # License
-Azure Logs tricks are released under the MIT license what means that you can modify and use them how you want even for commercial use. Please give this repository a star if you like any of KQL queries and your experience was positive.
+Azure Logs tricks are released under the MIT license what means that you can modify and use scripts how you want even for commercial use. Please give this repository a star if you like any of KQL queries and your experience was positive.
